@@ -9,7 +9,8 @@ var express       = require("express"),
     Comments      = require("./models/comment.js"),
     User          = require("./models/user.js"),
     seedDB        = require("./seeds"),
-    flash         = require("connect-flash");
+    flash         = require("connect-flash"),
+    geocoder = require('geocoder');
 
 //requiring routes
 var commentRoutes = require("./routes/comments"),

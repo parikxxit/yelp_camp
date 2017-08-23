@@ -16,3 +16,8 @@
     max-width: 40%;
     display: center;
 }
+#map {
+    height: 400px;
+    width: 100%;
+}
+ 
