@@ -17,7 +17,8 @@ var commentRoutes = require("./routes/comments"),
     indexRoutes   = require("./routes/index");
     
 // CONNECT to mongoose
-mongoose.connect("mongodb://localhost/yelp_camp_final");
+mongoose.connect("mongodb://singhp154:Parikshit@21@ds013569.mlab.com:13569/yelp_camp");
+// mongoose.connect("mongodb://localhost/yelp_camp_final");
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: true}));
