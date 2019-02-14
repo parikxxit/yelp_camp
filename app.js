@@ -38,7 +38,6 @@ passport.use(new LocalStrategy(User.authenticate()));
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-// seedDB(); //seed files for data base 
 
 //Custom Middlewares to get user detail in templates
 app.use(function(req, res, next){
